@@ -96,12 +96,13 @@ To deploy this application using Docker, follow these steps:
 
 1. Build the Docker image:
    ```
-   docker build -t rag-pdf-qa .
+   docker build -t ragsys .
    ```
 
 2. Run the Docker container:
    ```
-   docker run -p 7860:7860 rag-pdf-qa
+   docker run -p 7860:7860 -e ragsys
+
    ```
 
 3. Access the application by opening a web browser and navigating to `http://localhost:7860`.
