@@ -93,7 +93,7 @@ The Gradio interface makes the RAG system accessible to users who may not be com
 ## Docker Deployment
 
 To deploy this application using Docker, follow these steps:
-1. Download rag.py, Dockerfile and requirements.txt, save them in the same folder.
+1. Download rag.py, Dockerfile and requirements.txt, from Rag_Project.
 
 2. Open the terminal and navigate to the particular directory.
 
