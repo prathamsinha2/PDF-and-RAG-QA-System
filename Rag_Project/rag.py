@@ -90,4 +90,4 @@ with gr.Blocks() as rag_interface:
         segment_generation_output = gr.Textbox(label="Segment Information", value="", interactive=False, lines=10, max_lines=20)
     upload_button.click(upload_pdf, inputs=pdf_upload, outputs=status)
     send_button.click(ask_question, inputs=chat_input, outputs=[generated_answer_output, segment_generation_output])
-rag_interface.launch(debug=True)
+rag_interface.launch(server_name="0.0.0.0", server_port=7860, share=True)
