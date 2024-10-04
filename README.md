@@ -104,7 +104,7 @@ To deploy this application using Docker, follow these steps:
 
 4. Run the Docker container:
    ```
-   docker run -p 7860:7860 -e ragsys
+   docker run -p 7860:7860 ragsys
 
    ```
 
